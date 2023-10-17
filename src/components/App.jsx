@@ -21,8 +21,8 @@ function App() {
     const scaleRatio = 10000;
     planet = {
       ...planet,
-      position: [planet.position / 10000000, 0, 0],
-      size: planet.size / 10000
+      position: [planet.position / 5000000, 0, 0],
+      size: planet.size / 20000
     }
     planets[planets.findIndex(p => p.name === planet.name)] = planet
     return planet
