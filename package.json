@@ -1,6 +1,7 @@
 {
   "name": "solar-system",
   "version": "0.1.0",
+  "homepage": "https://kevin-martins.github.io/solar-system/",
   "private": true,
   "dependencies": {
     "@react-three/drei": "^9.88.3",
